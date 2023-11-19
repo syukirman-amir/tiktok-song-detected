@@ -4,3 +4,4 @@ beautifulsoup4
 asyncio
 shazamio
 pydub
+ffmpeg-python
