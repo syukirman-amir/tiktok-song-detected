@@ -119,7 +119,7 @@ async def recognize_song(file):
 
 # Streamlit app
 def main():
-    st.title('TikTok Detected Music')
+    st.title('Detected Music on TikTok ')
     st.caption("Made with 💜  Syukirman Amir")
     st.write("Enter the complete TikTok URL:")
     full_url = st.text_input("Example: https://www.tiktok.com/@username/video/1234567890 OR https://vt.tiktok.com/ZSNacef3m/")
