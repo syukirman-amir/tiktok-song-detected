@@ -122,7 +122,7 @@ def main():
     st.title('Detected Music on TikTok ')
     st.caption("Made with 💜  Syukirman Amir")
     st.write("Enter the complete TikTok URL:")
-    full_url = st.text_input("Example: https://www.tiktok.com/@username/video/1234567890 OR https://vt.tiktok.com/ZSNacef3m/")
+    full_url = st.text_input("Example: https://www.tiktok.com/@username/video/1234567890  OR  https://vt.tiktok.com/12345678/")
     
     if st.button("Detected Music"):
         base_url = 'https://www.tiktok.com/'
